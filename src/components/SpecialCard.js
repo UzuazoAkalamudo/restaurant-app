@@ -1,15 +1,14 @@
+import './SpecialCard.css'
 
 function SpecialCard({item}){
     return(
-        <article>
-            <img src={item.image} alt="Menu special food"/>
-            <div>
-                <div>
-                    <h3>{item.name}</h3>
-                    <p>{item.price}</p>
-                </div>
-                <p>{item.description}</p>
-                <a href={item.orderLink}>Order a delivery</a>
+        <article className='card-container'>
+            <img className ='card-image' src={item.image} alt="Menu special food"/>
+            <div className="content-container">
+                <h3 className='special-title'>{item.name}</h3>
+                <p className='special-price'>{item.price}</p>
+                <p className='special-description'>{item.description}</p>
+                <a className='special-order' href={item.orderLink}>Order a delivery</a>
             </div>
         </article>
     );

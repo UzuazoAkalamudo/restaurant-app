@@ -1,6 +1,8 @@
+import './ButtonLink.css'
+
 function ButtonLink({href, children}){
     return(
-        <a href={href}>{children}</a>
+        <a className='button' href={href}>{children}</a>
     );
 }
 

@@ -1,0 +1,22 @@
+.header-container{
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.header-container h1{
+    margin: 0;
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 40pt;
+    line-height: 1;
+    color: #333333;
+}
+
+.specials-container{
+    display: flex;
+    justify-content: center;
+}
+

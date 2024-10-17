@@ -3,13 +3,14 @@ import bruchetta from '../assets/bruchetta.svg';
 import dessert from '../assets/lemon dessert.jpg';
 import SpecialCard from './SpecialCard';
 import ButtonLink from './ButtonLink';
+import './Highlights.css'
 
 
 function Highlights(){
     const specials = [
         {
             image: salad,
-            name: "Greek salad",
+            name: "Greek Salad",
             price: "$12.99",
             description: "The famous greek salad of crispy lettuce, peppers, olives and our Chicago style feta cheese, garnished with crunchy garlic and rosemary croutons.",
             orderLink: "#"
@@ -31,12 +32,12 @@ function Highlights(){
     ];
 
     return(
-        <section>
-            <div>
-                <h1>This weeks specials</h1>
+        <section className='highlights-container'>
+            <div className='header-container'>
+                <h1>This weeks specials!</h1>
                 <ButtonLink href="#">Online Menu</ButtonLink>
             </div>
-            <div>
+            <div className='specials-container'>
                 {specials.map((item, index) => (
                     <SpecialCard key={index} item={item}/>
                 ))}
