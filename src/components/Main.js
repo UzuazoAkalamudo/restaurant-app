@@ -1,14 +1,12 @@
 import CallToAction from './CallToAction'
 import Specials from './Specials'
 
-function Main({className}){
+function Main({className, children}){
     return(
         <main className={className}>
-            <CallToAction/>
-            <Specials/>
+            {children}
         </main>
     );
 };
-
 
 export default Main;
