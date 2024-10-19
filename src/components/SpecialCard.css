@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
 
-*{
+* {
     margin: 0;
 }
 
 .card-container{
     display: grid;
     grid-template-rows: 175px;
-    grid-template-columns: 200px;
+    grid-template-columns: 225px;
     border-radius: 10px;
     background-color: #EDEFEE;;
-    margin-right: 25px;
 }
 
 .card-image{
@@ -24,10 +23,10 @@
 .content-container{
     grid-row: 2;
     display: grid;
-    grid-template-rows: 1fr 8fr 1fr;
-    grid-template-columns: 3fr 1fr;
-    align-items: start;
-
+    grid-template-rows: 1fr 7fr 2fr;
+    grid-template-columns: 3fr 2fr;
+    justify-items: start;
+    align-items: center;
 }
 
 .special-title{
@@ -35,13 +34,18 @@
     grid-column: 1;
     grid-row: 1;
     font-family: "Markazi Text";
+    padding-left: 1rem;
+    font-size: 1.25rem;
 }
 
 .special-price{
     grid-column: 2;
     grid-row: 1;
     font-family: "Karla";
-    color: #EE9972
+    font-size: 1rem;
+    color: #EE9972;
+    justify-self: end;
+    padding-right: 1rem;
 }
 
 .special-description{
@@ -49,13 +53,13 @@
     grid-row: 2;
     margin: 0;
     font-family: 'Karla';
-    font-size: 10pt;
+    font-size: 1rem;
     line-height: 1.5;
     max-width: 35ch;
     color: #495E57;
-    padding: 0.5rem;
+    padding: 1rem;
+    align-self: start;
 }
-
 
 .special-order{
     grid-column: 1;
@@ -63,6 +67,11 @@
     text-decoration: none;
     color: #333333;
     font-family: Karla;
+    font-weight: 500;
+    padding-left: 1rem;
 }
 
+.special-order:hover{
+    color: #EE9972;
+}
 
