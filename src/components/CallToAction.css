@@ -1,20 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
 
-.section-container{
-    margin: 0;
+.cta-section-container{
+    margin: 1rem 0 10rem 0;
     padding: 0;
     background-color: #495E47;
     display: flex;
+    gap: 11vw;
     justify-content: center;
-    height: 250px;
-    margin-top: 20px;
-    margin-bottom: 150px;
+    height: 300px;
 }
 
 .image-container{
-    padding-top: 25px;
+    padding-top: 1.5rem;
     width: 300px;
-    height: 300px;
+    height: 325px;
 }
 
 .image-container > img{
@@ -25,24 +24,24 @@
 }
 
 .text-button-container{
-    margin-right: 175px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .text-button-container h1{
-    margin: 0;
     font-family: 'Markazi Text';
     font-weight: 500;
-    font-size: 40pt;
+    font-size: 4rem;
     line-height: 1;
     color: #F4CE14;
-    margin-top: 16px;
 }
 
 .text-button-container h2{
     margin: 0;
     font-family: 'Markazi Text';
     font-weight: 500;
-    font-size: 20pt;
+    font-size: 2rem;
     line-height: 1;
     color: #EDEFEE;
 }
@@ -50,7 +49,7 @@
 .text-button-container p{
     margin: 0;
     font-family: 'Karla';
-    font-size: 12pt;
+    font-size: 1rem;
     line-height: 1.5;
     max-width: 25ch;
     color: #EDEFEE;

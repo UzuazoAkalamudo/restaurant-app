@@ -32,7 +32,7 @@ function Specials(){
     ];
 
     return(
-        <section className='highlights-container'>
+        <section className='specials-section-container'>
             <div className='header-container'>
                 <h1>This weeks specials!</h1>
                 <ButtonLink href="#">Online Menu</ButtonLink>

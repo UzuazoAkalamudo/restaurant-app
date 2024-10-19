@@ -4,7 +4,7 @@ import './CallToAction.css'
 
 function CallToAction(){
     return(
-        <section className='section-container'>
+        <section className='cta-section-container'>
             <div className='text-button-container'>
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
