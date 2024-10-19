@@ -4,7 +4,7 @@ import logo from '../assets/Logo.svg'
 function Nav(){
     return(
         <nav className='nav-bar'>
-            <img src={logo} alt="Little Lemon logo"></img>
+            <img className='nav-image' src={logo} alt="Little Lemon logo"></img>
             <ul className='nav-list'>
                 <li className='nav-item'><a href="#">Home</a></li>
                 <li className='nav-item'><a href="#">About</a></li>

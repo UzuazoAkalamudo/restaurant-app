@@ -1,8 +1,8 @@
 import food from '../assets/restauranfood.jpg'
 import ButtonLink from './ButtonLink';
-import './Hero.css'
+import './CallToAction.css'
 
-function Hero(){
+function CallToAction(){
     return(
         <section className='section-container'>
             <div className='text-button-container'>
@@ -20,4 +20,4 @@ function Hero(){
 
 };
 
-export default Hero;
+export default CallToAction;

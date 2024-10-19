@@ -1,11 +1,11 @@
-import Hero from './Hero'
-import Highlights from './Highlights'
+import CallToAction from './CallToAction'
+import Specials from './Specials'
 
-function Main(){
+function Main({className}){
     return(
-        <main>
-            <Hero/>
-            <Highlights/>
+        <main className={className}>
+            <CallToAction/>
+            <Specials/>
         </main>
     );
 };

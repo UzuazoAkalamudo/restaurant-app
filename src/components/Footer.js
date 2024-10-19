@@ -1,7 +1,7 @@
 
-function Footer(){
+function Footer({className}){
     return(
-        <footer>
+        <footer className={className}>
             <p>Little Lemon (C) 2024</p>
         </footer>
     );

@@ -3,10 +3,10 @@ import bruchetta from '../assets/bruchetta.svg';
 import dessert from '../assets/lemon dessert.jpg';
 import SpecialCard from './SpecialCard';
 import ButtonLink from './ButtonLink';
-import './Highlights.css'
+import './Specials.css'
 
 
-function Highlights(){
+function Specials(){
     const specials = [
         {
             image: salad,
@@ -46,4 +46,4 @@ function Highlights(){
     );
 };
 
-export default Highlights;
+export default Specials;

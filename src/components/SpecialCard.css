@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
 
+*{
+    margin: 0;
+}
+
 .card-container{
     display: grid;
     grid-template-rows: 175px;
@@ -20,36 +24,45 @@
 .content-container{
     grid-row: 2;
     display: grid;
-    grid-template-rows: 100px;
-    grid-template-columns: 2fr 1fr;
-    align-items: center;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-columns: 3fr 1fr;
+    align-items: start;
+
 }
 
 .special-title{
     color: #333333;
     grid-column: 1;
+    grid-row: 1;
     font-family: "Markazi Text";
 }
 
 .special-price{
     grid-column: 2;
+    grid-row: 1;
     font-family: "Karla";
     color: #EE9972
 }
 
 .special-description{
     grid-column: 1 / span 2;
+    grid-row: 2;
     margin: 0;
     font-family: 'Karla';
-    font-size: 12pt;
+    font-size: 10pt;
     line-height: 1.5;
-    max-width: 25ch;
+    max-width: 35ch;
     color: #495E57;
+    padding: 0.5rem;
 }
 
 
 .special-order{
-    grid-column: 1 / span 2;
+    grid-column: 1;
+    grid-row: 3;
+    text-decoration: none;
+    color: #333333;
+    font-family: Karla;
 }
 
 
