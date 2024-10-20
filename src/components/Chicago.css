@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&family=Markazi+Text:wght@400..700&display=swap');
+
+.chicago-section{
+    margin: 8rem 0 10rem 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1vw;
+    justify-content: center;
+    height: 325px;
+}
+
+.chicago-text-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.chicago-text-container h1{
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 5rem;
+    line-height: 1;
+    color: #F4CE14;
+}
+
+.chicago-text-container h2{
+    margin: 0;
+    font-family: 'Markazi Text';
+    font-weight: 500;
+    font-size: 3rem;
+    line-height: 1;
+    color: #495E47;
+}
+
+.chicago-text-container p{
+    margin: 0;
+    font-family: 'Karla';
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 25ch;
+    color: #333333;
+}
+
+.chicago-image-container{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    position: relative;
+}
+
+.chicago-image-item-1{
+    grid-column: 1 / span 8;
+    grid-row: 1;
+    padding-top: 20%;
+    z-index: 1;
+}
+
+.chicago-image-item-2{
+    grid-column: 5 / -1;
+    grid-row: 1;
+}
+
+.first-image{
+    width: 18rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
+
+.second-image{
+    width: 18rem;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 1rem;
+}
