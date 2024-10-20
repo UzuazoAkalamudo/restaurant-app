@@ -7,7 +7,7 @@
     flex-wrap: wrap;
     gap: 1vw;
     justify-content: center;
-    height: 325px;
+    height: auto;
 }
 
 .chicago-text-container{
