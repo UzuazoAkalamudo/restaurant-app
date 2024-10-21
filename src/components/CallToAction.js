@@ -9,7 +9,7 @@ function CallToAction(){
                 <h1>Little Lemon</h1>
                 <h2>Chicago</h2>
                 <p>We are a family owned Mediterranean restaurant, focused on traditional recipes served with a modern twist.</p>
-                <ButtonLink className="cta-button" href="#">Reserve a Table</ButtonLink>
+                <ButtonLink className="cta-button" to="/reservations">Reserve a Table</ButtonLink>
             </div>
             <div className='image-container'>
                 <img src={food} alt="Chef carrying tray of restaurant food"/>

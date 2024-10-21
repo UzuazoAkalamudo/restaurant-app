@@ -1,7 +1,14 @@
-function Main({className, children}){
+import {Routes, Route} from "react-router-dom";
+import Homepage from '../Homepage.js';
+import BookingPage from '../BookingPage.js';
+
+function Main(){
     return(
-        <main className={className}>
-            {children}
+        <main>
+          <Routes>
+            <Route path="/" element={<Homepage/>}></Route>
+            <Route path="/reservations" element={<BookingPage/>}></Route>
+          </Routes>
         </main>
     );
 };

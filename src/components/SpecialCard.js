@@ -1,4 +1,5 @@
 import './SpecialCard.css'
+import {Link} from "react-router-dom";
 
 function SpecialCard({item}){
     return(
@@ -8,7 +9,7 @@ function SpecialCard({item}){
                 <h3 className='special-title'>{item.name}</h3>
                 <p className='special-price'>{item.price}</p>
                 <p className='special-description'>{item.description}</p>
-                <a className='special-order' href={item.orderLink}>Order a delivery</a>
+                <Link className='special-order' to={item.orderLink}>Order a delivery</Link>
             </div>
         </article>
     );

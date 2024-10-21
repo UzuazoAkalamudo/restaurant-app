@@ -1,8 +1,8 @@
 import Nav from './Nav'
 
-function Header({className}){
+function Header(){
     return(
-        <header className={className}>
+        <header>
             <Nav/>
         </header>
     );
