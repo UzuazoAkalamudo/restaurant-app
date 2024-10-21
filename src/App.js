@@ -1,10 +1,17 @@
+import {Routes, Route} from "react-router-dom";
 import './App.css';
-import Homepage from './Homepage.js'
+import Header from "./components/Header.js";
+import Footer from "./components/Footer.js";
+import Homepage from './Homepage.js';
 
 function App() {
   return (
     <>
-      <Homepage/>
+      <Header className="header"/>
+      <Routes>
+        <Route path="/" element={<Homepage/>}></Route>
+      </Routes>
+      <Footer className="footer"/>
     </>
   );
 }
