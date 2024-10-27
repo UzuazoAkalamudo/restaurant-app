@@ -1,0 +1,7 @@
+
+.booking-form{
+    display: grid;
+    max-width: 200px;
+    gap: 10px;
+    align-self: center;
+}
