@@ -1,7 +1,7 @@
 import { updateTimes } from './Main';
 
 test('Initializes times correctly', () => {
-  const selectedDate = "11-22-2024"
-  const expectedTimes = ["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"];
+  const selectedDate = new Date("2024-10-31")
+  const expectedTimes = ["17:00", "17:30", "18:30", "20:00", "20:30", "21:00", "23:00"];
   expect(updateTimes(selectedDate)).toEqual(expectedTimes);
 });

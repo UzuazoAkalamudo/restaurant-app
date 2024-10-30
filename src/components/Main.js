@@ -2,6 +2,8 @@ import {Routes, Route} from "react-router-dom";
 import {useReducer} from "react";
 import Homepage from '../Homepage.js';
 import BookingPage from '../BookingPage.js';
+import ConfirmedBooking from '../ConfirmedBooking.js';
+import { fetchAPI, submitAPI } from '../api.js';
 
 function reducer(state, action){
   switch (action.type) {
@@ -15,13 +17,17 @@ function reducer(state, action){
 }
 
 export const updateTimes = (selectedDate) =>{
-  const availableTimes = ["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"];
-  return availableTimes;
+  return fetchAPI(selectedDate);
 }
 
 export const initializeTimes = () => {
-  const initialTimes = ["17:00", "18:00", "19:00", "20:00", "21:00", "22:00"];
-  return initialTimes;
+  const today = new Date();
+  return fetchAPI(today);
+}
+
+export const submitForm = (formData) => {
+
+  return submitAPI(formData)
 }
 
 function Main(){
@@ -32,7 +38,8 @@ function Main(){
         <main>
           <Routes>
             <Route path="/" element={<Homepage/>}></Route>
-            <Route path="/reservations" element={<BookingPage availableTimes={availableTimes} updateTimes={updateTimes} dispatch={dispatch}/>}></Route>
+            <Route path="/reservations" element={<BookingPage availableTimes={availableTimes} updateTimes={updateTimes} dispatch={dispatch} submitForm={submitForm}/>}></Route>
+            <Route path="/booking-confirmed" element={<ConfirmedBooking/>}></Route>
           </Routes>
         </main>
     );
