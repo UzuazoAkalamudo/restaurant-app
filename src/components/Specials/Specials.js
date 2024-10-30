@@ -1,8 +1,8 @@
-import salad from '../assets/greek salad.jpg';
-import bruchetta from '../assets/bruchetta.svg';
-import dessert from '../assets/lemon dessert.jpg';
+import salad from '../../assets/greek salad.jpg';
+import bruchetta from '../../assets/bruchetta.svg';
+import dessert from '../../assets/lemon dessert.jpg';
 import SpecialCard from './SpecialCard';
-import ButtonLink from './ButtonLink';
+import ButtonLink from '../ButtonLink/ButtonLink';
 import './Specials.css'
 
 

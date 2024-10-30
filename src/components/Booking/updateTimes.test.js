@@ -1,4 +1,4 @@
-import { updateTimes } from './Main';
+import { updateTimes } from '../Main/Main';
 
 test('Initializes times correctly', () => {
   const selectedDate = new Date("2024-10-31")

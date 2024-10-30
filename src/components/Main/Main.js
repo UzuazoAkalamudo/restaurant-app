@@ -1,9 +1,9 @@
 import {Routes, Route} from "react-router-dom";
 import {useReducer} from "react";
-import Homepage from '../Homepage.js';
-import BookingPage from '../BookingPage.js';
-import ConfirmedBooking from '../ConfirmedBooking.js';
-import { fetchAPI, submitAPI } from '../api.js';
+import Homepage from '../Homepage/Homepage.js';
+import BookingPage from '../Booking/BookingPage.js';
+import ConfirmedBooking from '../Booking/ConfirmedBooking.js';
+import { fetchAPI, submitAPI } from '../../api.js';
 
 function reducer(state, action){
   switch (action.type) {

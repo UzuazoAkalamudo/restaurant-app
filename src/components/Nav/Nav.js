@@ -1,5 +1,5 @@
 import './Nav.css'
-import logo from '../assets/Logo.svg'
+import logo from '../../assets/Logo.svg'
 import {Link} from "react-router-dom";
 
 function Nav(){

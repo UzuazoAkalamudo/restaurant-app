@@ -1,6 +1,6 @@
-import CallToAction from './components/CallToAction'
-import Specials from './components/Specials'
-import Chicago from './components/Chicago';
+import CallToAction from '../CallToAction/CallToAction'
+import Specials from '../Specials/Specials'
+import Chicago from '../Chicago/Chicago';
 
 function Homepage() {
   return (

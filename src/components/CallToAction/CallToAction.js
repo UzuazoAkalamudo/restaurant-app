@@ -1,5 +1,5 @@
-import food from '../assets/restauranfood.jpg'
-import ButtonLink from './ButtonLink';
+import food from '../../assets/restauranfood.jpg'
+import ButtonLink from '../ButtonLink/ButtonLink';
 import './CallToAction.css'
 
 function CallToAction(){

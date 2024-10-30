@@ -1,5 +1,5 @@
-import restaurant from '../assets/restaurant.jpg'
-import team from '../assets/Mario and Adrian A.jpg'
+import restaurant from '../../assets/restaurant.jpg'
+import team from '../../assets/Mario and Adrian A.jpg'
 import './Chicago.css'
 
 const Chicago = () => {

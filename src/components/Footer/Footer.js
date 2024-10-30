@@ -1,5 +1,5 @@
 import './Footer.css'
-import logo from '../assets/Logo.svg'
+import logo from '../../assets/Logo.svg'
 import {Link} from "react-router-dom";
 
 function Footer(){
@@ -30,8 +30,8 @@ function Footer(){
             <div className="item-container">
                 <h3>Social Media Links</h3>
                 <ul className="footer-list">
-                    <li className='footer-list-item'><a href="#">Facebook</a></li>
-                    <li className='footer-list-item'><a href="#">Instagram</a></li>
+                    <li className='footer-list-item'><a href="/">Facebook</a></li>
+                    <li className='footer-list-item'><a href="/">Instagram</a></li>
                 </ul>
             </div>
         </footer>

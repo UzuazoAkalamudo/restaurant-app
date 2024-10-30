@@ -1,5 +1,5 @@
 import React from "react";
-import BookingForm from "./components/BookingForm";
+import BookingForm from "./BookingForm";
 
 const BookingPage = ({availableTimes, updateTimes, dispatch, submitForm}) => {
     return(
